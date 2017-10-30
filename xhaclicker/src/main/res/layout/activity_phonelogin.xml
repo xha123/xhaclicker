@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/title1"/>
+
+    <EditText
+        android:id="@+id/phonelogin_phone_ed"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginRight="@dimen/right"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:background="@drawable/gray_rond_back"
+        android:hint="@string/phonenumber"
+        />
+
+    <EditText
+        android:id="@+id/phonelogin_password_ed"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginRight="@dimen/right"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:background="@drawable/gray_rond_back"
+        android:hint="@string/inputpass"
+        />
+    <TextView
+        android:id="@+id/phonelogin_register_tv"
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/phoneregister"
+        android:textSize="12sp"
+        android:textColor="@color/blue"
+        />
+    <TextView
+        android:id="@+id/phonelogin_forgetpass_tv"
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/forgetpass"
+        android:textSize="12sp"
+        android:textColor="@color/blue"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/phonelogin_login_tv"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:text="@string/login"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:background="@drawable/blue_roud_back"
+            />
+    </RelativeLayout>
+</LinearLayout>

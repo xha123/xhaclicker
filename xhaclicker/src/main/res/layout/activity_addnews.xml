@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <include layout="@layout/title1"/>
+    <EditText
+        android:id="@+id/addnews_add_ed"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/e7"
+        android:gravity="top"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:maxLines="3"
+        android:hint="描述信息"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/addnews_recy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+        <TextView
+            android:id="@+id/addnews_up_tv"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:text="@string/update"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/blue_roud_back"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

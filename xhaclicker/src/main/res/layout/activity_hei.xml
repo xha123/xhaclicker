@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/title1"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/hei_bottom_rl"
+            android:background="@color/f7"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/hei_del_tv"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/del"
+                android:textColor="@color/black"
+                android:layout_marginLeft="16dp"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/hei_huanyuan_tv"
+                android:padding="3dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/huanyuan"
+                android:textColor="@color/black"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/hei_recycler"
+            android:layout_above="@id/hei_bottom_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+
+</LinearLayout>

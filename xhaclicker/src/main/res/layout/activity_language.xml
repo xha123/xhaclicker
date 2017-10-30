@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/title1"/>
+    <TextView
+        android:id="@+id/language_zhjian_tv"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/gray_rond_back"
+        android:text="@string/chinaj"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:textColor="@color/a33"
+        />
+    <TextView
+        android:id="@+id/language_zhfan_tv"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/gray_rond_back"
+        android:text="@string/chinaf"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:textColor="@color/a33"
+        />
+    <TextView
+        android:id="@+id/language_en_tv"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/gray_rond_back"
+        android:text="@string/englist"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:textColor="@color/a33"
+        />
+</LinearLayout>

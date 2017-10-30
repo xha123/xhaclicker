@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1b1c1c</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="green">#06c1ad</color>
+    <color name="blue">#5f9acc</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#f46138</color>
+    <color name="orange">#fa952f</color>
+    <color name="orange_half">#7fff8621</color>
+    <color name="orange1">#ff8862</color>
+    <color name="yellow">#fcf62c</color>
+    <color name="touming">#00000000</color>
+    <color name="bantouming">#60000000</color>
+    <color name="hong">#fe566d</color>
+    <color name="fa">#fa952f</color>
+
+
+
+    <color name="f7">#f7f7f7</color>
+    <color name="e7">#84e7e7e7</color>
+    <color name="e7h">#e7e7e7</color>
+    <color name="e6">#e6e6e6</color>
+    <color name="d7">#d7d7d7</color>
+    <color name="d1">#d1d1d1</color>
+    <color name="c7">#c7c7c7</color>
+    <color name="a8">#a8a8a8</color>
+    <color name="a7a">#7A7A7A</color>
+    <color name="a99">#999999</color>
+    <color name="a67">#676767</color>
+    <color name="grayback">#fafafa</color>
+    <color name="backgray">#fafafa</color>
+    <color name="grayfont">#7a7a7a</color>
+    <color name="black">#2f2f39</color>
+    <color name="blackhei">#000000</color>
+    <color name="f2f">#2f2f39</color>
+    <color name="dcd">#DCDCDC</color>
+    <color name="bac">#ed9afe</color>
+
+    <color name="maindetailback">#b8000000</color>
+    <color name="topupback">#96000000</color>
+
+    <color name="background">#FFFFFF</color>
+    <color name="split_line">#11112233</color>
+    <color name="text1">#59B29C</color>
+    <color name="a33">#333333</color>
+
+    <color name="color1">#F0F0F0</color>
+    <color name="color2">#FFFFFF</color>
+    <color name="color3">#B0B0B0</color>
+    <color name="color4">#666666</color>
+    <color name="color5">#57C5E8</color>
+</resources>

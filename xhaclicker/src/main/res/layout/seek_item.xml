@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/seek_gray_item_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/seekitem_name_iv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            app:actualImageScaleType="centerCrop"
+            app:roundAsCircle="true"
+            app:roundingBorderColor="@color/black"
+            app:roundingBorderWidth="1dp"
+            app:roundingBorderPadding="2dp"
+            />
+        <TextView
+            android:id="@+id/seekitem_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/seekitem_name_iv"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:singleLine="true"
+
+            />
+        <TextView
+            android:id="@+id/seekitem_name_mess_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/seekitem_name_tv"
+            android:layout_below="@id/seekitem_name_tv"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:singleLine="true"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>

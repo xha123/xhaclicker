@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:id="@+id/btn_popu_album"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/blue_roud_back"
+        android:text="@string/popu_album" />
+
+    <TextView
+        android:gravity="center"
+        android:background="@drawable/blue_roud_back"
+        android:id="@+id/btn_popu_camera"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:text="@string/popu_camear" />
+
+
+</LinearLayout>
+
